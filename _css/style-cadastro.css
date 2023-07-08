@@ -1,0 +1,87 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: "Poppins";
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #59adff;
+}
+
+div.content-regist{
+	position: relative;
+	background: #fff;
+	box-shadow: 2px 2px 2px #eee;
+	width: 50%;
+	height: 350px;
+	border-radius: 10px;
+}
+
+div.content-regist div.title-form h3{
+	text-align: center;
+	color: #ccc;
+	font-size: 16pt;
+}
+
+div.content-regist div.title-form{
+	margin-top: 7px;
+}
+
+div.content-regist form div.part{
+	/*padding: 20px;*/
+
+}
+
+input{
+	width: 40%;
+	border-radius: 5px;
+	padding-left: 15px;
+	margin: 30px;
+	height: 40px;
+	outline: none;
+	border:1px solid #ddd;	
+}
+
+footer{
+	position: absolute;
+	bottom: 20px;
+}
+
+footer span{
+	color: #fff;
+}
+
+div.content-regist form div.part input.bt{
+	text-decoration: none;
+	background-color: #59adff;
+	padding: 5px 70px;
+	color: #fff;
+	margin: 30px;
+	border-radius: 10px;
+	pointer-events: pointer;
+}
+
+div.content-regist form div.part a.bt-back{
+	text-decoration: none;
+	color: #59adff;
+	padding: 5px 60px;
+	border:1px solid #59adff;
+	margin: 80px;
+	border-radius: 10px;
+}
+
+.error-message{
+	background-color: #f30;
+	padding: 20px 10px;
+	width: 60%;
+	border-radius: 10px;
+	border: none;
+	font-size: small;
+	color: #fff;
+	margin: 0px auto;
+}
