@@ -1,5 +1,5 @@
 <?php
-	return $Conn = mysqli_connect('localhost','root','','carwash_new'); 
+	return $Conn = mysqli_connect('127.0.0.1','root','','carwash'); 
 	if (!$Conn) {
 		die("Conexao Falhada: ".mysqli_connect_error());
 	}
